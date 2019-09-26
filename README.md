@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       output = "Well " + name + ". You seem very daring!";
       }
     else {
-      output = "Hey, I asked you your name!";
+      var name=prompt("What is your name?","");
       }
     
     document.getElementById( "msg" ).innerText = output;
