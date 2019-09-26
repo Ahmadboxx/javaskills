@@ -1,5 +1,4 @@
 <title>My Example</title>
-
 <script>
 document.addEventListener("DOMContentLoaded", function(event) {
 
@@ -12,24 +11,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       output = "Well " + name + ". You seem very daring!";
       }
     else {
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      var name=prompt("What is your name?","");
-      
+      output = "Hey, I asked you your name!";
       }
     
     document.getElementById( "msg" ).innerText = output;
